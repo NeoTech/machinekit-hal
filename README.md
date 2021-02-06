@@ -22,9 +22,7 @@ Supporting _RT PREEMPT_ and _Xenomai 2_ real-time Linux kernel patches. **APT** 
 
 ## Getting started
 
-The easiest way how to get **Machinekit-HAL** running is to install Debian package. Packages can be obtained by triggering Github Actions _workflow_ and downloading **build artifacts** on your own _fork_. Packages build from every push to [master branch](https://github.com/machinekit/machinekit-hal/actions?query=branch:master) on official [Machinekit/Machinekit-HAL repository](https://github.com/machinekit/machinekit-hal) are also distributed through [Machinekit-HAL](https://cloudsmith.io/~machinekit/repos/machinekit-hal/packages/) repository ([Dependencies](https://cloudsmith.io/~machinekit/repos/machinekit/packages/)) kindly hosted by [Cloudsmith](https://cloudsmith.io).
-
-Alternatively you can build locally on your machine in _**R**un-**I**n-**P**lace_ mode. The briefest sequence of commands would be:
+You can build locally on your machine in _**R**un-**I**n-**P**lace_ mode. The briefest sequence of commands would be:
 
 ```sh
 git clone https://github.com/machinekit/machinekit-hal.git
