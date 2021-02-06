@@ -27,7 +27,7 @@ You can build locally on your machine in _**R**un-**I**n-**P**lace_ mode. The br
 ```sh
 git clone https://github.com/machinekit/machinekit-hal.git
 cd machinekit-hal
-debian/bootstrap
+bootstrap.sh
 mk-build-deps -irs sudo
 cd src
 ./autogen.sh
