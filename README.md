@@ -1,6 +1,6 @@
 <h1 align="center">Non-Official Machinekit-HAL</h1>
 
-<div>Goal with this fork is to make it compiling on any distro.</div>
+<h3 align="center">Goal with this fork is to make it compiling on any distro.</h3>
 
 <div align="center"><img alt="Machinekit demo" src="media/machinekit-hal.svg" width="450px" /></div>
 
