@@ -48,29 +48,11 @@ It all started in the early nineties when NIST created the Enhanced Machine Cont
 |![Warning](https://img.icons8.com/ios-filled/50/000000/warning-shield.png)| The _CNC_ part of original repository was separated into the [_Machinekit-CNC_](https://github.com/machinekit/machinekit-cnc) repository in the same move. |
 |:---:|---|
 
-## Frequently asked questions
-
-|![Question](https://img.icons8.com/ios-filled/50/000000/ask-question.png)| What is the _**H**ardware **A**bstraction **L**ayer_? |
-|:---:|---|
-|![Answer](https://img.icons8.com/ios-filled/50/000000/smartphone-approve.png)| **HAL** represents one of the **fundamental** elements of _Machinekit-HAL_. One could imagine **HAL** as a _electronics breadboard_ into which _semiconductors_, _passives_ or _connectors_ (in **HAL** _componets_ and _drivers_) are inserted and connected by _wires_ (in **HAL** _signals_). This all happens **_in-memory_** and the _execution stage_ runs in Linux scheduled _thread_. |
-
-|![Question](https://img.icons8.com/ios-filled/50/000000/ask-question.png)| Is **Machinekit-HAL** LinuxCNC? |
-|:---:|---|
-|![Answer](https://img.icons8.com/ios-filled/50/000000/smartphone-approve.png)| **No.** In the current state of development, we can say that both Machinekit-HAL and LinuxCNC 2.8 have a **common** ancestor. However, **Machinekit-HAL** doesn't include the CNC functionality like _LinuxCNC_, the configuration is different and the supported platforms are different also. |
-
-|![Question](https://img.icons8.com/ios-filled/50/000000/ask-question.png)| What's the difference between **Machinekit-HAL** and Machinekit? |
-|:---:|---|
-|![Answer](https://img.icons8.com/ios-filled/50/000000/smartphone-approve.png)| **Machinekit-HAL** is continuation of _Machinekit_. Work on the original Machinekit repository was stopped and the only new development will happen on _Machinekit-HAL_. Machinekit-HAL exports only the core functionality to better serve the needs of _machine integrators_ and provide leaner experience for everybody. The **CNC** functionality was exported into [_Machinekit-CNC repository_](https://github.com/machinekit/machinekit-cnc). |
-
-|![Question](https://img.icons8.com/ios-filled/50/000000/ask-question.png)| How can I determine if **.deb** package is from official distribution? |
-|:---:|---|
-|![Answer](https://img.icons8.com/ios-filled/50/000000/smartphone-approve.png)| Every package should be signed by [**dpkg-sig**](https://manpages.debian.org/buster/dpkg-sig/dpkg-sig.1.en.html) tool. Packages built by [Machinekit](https://machinekit.io) from official repository [_Machinekit/Machinekit_](https://github.com/machinekit/machinekit-hal) are signed by the [4A374E9D7CA79FA717293B98D2EFAE426CDDB0FE](https://keyserver.ubuntu.com/pks/lookup?search=0x4A374E9D7CA79FA717293B98D2EFAE426CDDB0FE&fingerprint=on&op=index) sub-key. Forks will use different key or will not sign the packages. |
-
 ## Getting involved
 
 **Machinekit-HAL** like all projects in the **Machinekit** organization is volunteer based governed by the [**C**ollective **C**ode **C**onstruction **C**ontract ](http://www.machinekit.io/community/c4), generally known as a C4 originally from the [ZeroMQ](https://rfc.zeromq.org/spec/22) project.
 
-The source code is hosted publicly on [GitHUB](https://github.com/machinekit/machinekit-hal), where majority of programming discussion about further development happens. In lower measures, Machinekit-HAL is also discussed on [_Machinekit forum_](https://groups.google.com/forum/#!forum/machinekit) and in [_Machinekit Matrix Room_](https://matrix.to/#/#machinekit:matrix.org), which are used more to the point of support platforms and for general chat.
+The original source code is hosted publicly on [GitHUB](https://github.com/machinekit/machinekit-hal), where majority of programming discussion about further development happens. In lower measures, Machinekit-HAL is also discussed on [_Machinekit forum_](https://groups.google.com/forum/#!forum/machinekit) and in [_Machinekit Matrix Room_](https://matrix.to/#/#machinekit:matrix.org), which are used more to the point of support platforms and for general chat.
 
 |![Counselling](https://img.icons8.com/ios-filled/50/000000/counselor.png)| It's always encouraged to create a new _issue_ in GitHub tracker first. Discuss the proposed changes there and then based on the output implement the changes and create a new _pull request_. |
 |:---:|---|
