@@ -11,34 +11,6 @@
 <img alt="Github Actions build status" src="https://img.shields.io/github/workflow/status/machinekit/machinekit-hal/Test application and publish packages (Debian linux)/master?style=for-the-badge&logo=github" />
 </a>
 
-<a href="https://travis-ci.com/github/machinekit/machinekit-hal/builds" target="_blank">
-<img alt="Travis-CI build status" src="https://img.shields.io/travis/com/machinekit/machinekit-hal?style=for-the-badge&logo=travis" />
-</a>
-
-<a href="https://cloud.drone.io/machinekit/machinekit-hal" target="_blank">
-<img alt="Drone Cloud build status" src="https://img.shields.io/drone/build/machinekit/machinekit-hal/master?style=for-the-badge&logo=drone" />
-</a>
-
-<a href="https://scan.coverity.com/projects/machinekit-machinekit-hal">
-<img alt="Coverity Scan Build Status" src="https://img.shields.io/coverity/scan/20589.svg?style=for-the-badge" />
-</a>
-
-<img alt="Version" src="https://img.shields.io/badge/version-0.4-blue.svg?cacheSeconds=2592000&style=for-the-badge" />
-
-<a href="https://matrix.to/#/#machinekit:matrix.org" target="_blank">
-<img alt="Matrix Machinekit Room" src="https://img.shields.io/matrix/machinekit:matrix.org?style=for-the-badge&logo=matrix" />
-</a>
-
-<a href="https://groups.google.com/forum/#!forum/machinekit" target="_blank">
-<img alt="Machinekit Google Groups" src="https://img.shields.io/badge/forum-Machinekit-default?style=for-the-badge&logo=google" />
-</a>
-
-<a href="http://www.machinekit.io/community/c4/" target="_blank">
-<img alt="C4 community guidelines" src="https://img.shields.io/badge/contributing-C4-default?style=for-the-badge&logo=zeromq" />
-</a>
-
-</br>
-
 <a href="https://cloudsmith.io/~machinekit/repos/machinekit-hal/packages/" target="_blank">
 <img alt="Machinekit Cloudsmith repository for Machinekit-HAL core packages" src="https://img.shields.io/badge/core%20packages-Machinekit--HAL-brightgreen?style=for-the-badge&logo=cloudsmith" />
 </a>
