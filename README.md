@@ -7,20 +7,6 @@
 <h4 align="center">Universal <i>framework</i> for machine control.</h4>
 
 <p align="center">
-<a href="https://github.com/machinekit/machinekit-hal/actions" target="_blank">
-<img alt="Github Actions build status" src="https://img.shields.io/github/workflow/status/machinekit/machinekit-hal/Test application and publish packages (Debian linux)/master?style=for-the-badge&logo=github" />
-</a>
-
-<a href="https://cloudsmith.io/~machinekit/repos/machinekit-hal/packages/" target="_blank">
-<img alt="Machinekit Cloudsmith repository for Machinekit-HAL core packages" src="https://img.shields.io/badge/core%20packages-Machinekit--HAL-brightgreen?style=for-the-badge&logo=cloudsmith" />
-</a>
-
-<a href="https://cloudsmith.io/~machinekit/repos/machinekit/packages/" target="_blank">
-<img alt="Machinekit Cloudsmith repository for dependencies" src="https://img.shields.io/badge/dependencies-Machinekit-brightgreen?style=for-the-badge&logo=cloudsmith" />
-</a>
-</p>
-
-<p align="center">
 <a href="https://machinekit.io/">Website</a>
 |
 <a href="https://machinekit.io/docs">Docs</a>
