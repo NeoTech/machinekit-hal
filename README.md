@@ -22,11 +22,9 @@ Supporting _RT PREEMPT_ and _Xenomai 2_ real-time Linux kernel patches. **APT** 
 
 ## Getting started
 
-You can build locally on your machine in _**R**un-**I**n-**P**lace_ mode. The briefest sequence of commands would be:
+You can build locally on your machine in _**R**un-**I**n-**P**lace_ mode. The briefest sequence of commands would be from cloned folder.:
 
 ```sh
-git clone https://github.com/machinekit/machinekit-hal.git
-cd machinekit-hal
 bootstrap.sh
 mk-build-deps -irs sudo
 cd src
